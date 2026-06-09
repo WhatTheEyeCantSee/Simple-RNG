@@ -1,0 +1,26 @@
+# This example shows a dice with the outcomes being the numbers from 1 to 6
+
+import random
+
+# You can put your own outcomes here
+
+OPTIONS = ["1", "2", "3", "4", "5", "6"]
+
+# This defines the "throw" function
+
+def throw():
+    return random.choice(OPTIONS)
+
+# You can change the print line and choices to something else
+
+def main():
+    print("Type 'throw' to start - 'quit' to stop")
+    while True:
+        choice = input("Make your move").strip().lower()
+        if choice == "throw":
+            print(throw())
+        elif choice == "quit":
+            break
+        else:
+            print("Invalid Option")
+main()
