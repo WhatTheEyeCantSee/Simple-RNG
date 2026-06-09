@@ -1,10 +1,10 @@
-# This example shows a dice with the outcomes being the numbers from 1 to 6
+# This example shows a dice with the possible options being the numbers from 1 to 6
 
 import random
 
 # You can put your own outcomes here
 
-OPTIONS = ["1", "2", "3", "4", "5", "6"]
+OPTIONS = ["You got '1'", "You got '2'", "You got '3'", "You got '4'", "You got '5'", "You got '6'"]
 
 # This defines the "throw" function
 
@@ -21,6 +21,7 @@ def main():
             print(throw())
         elif choice == "quit":
             break
+                print("Thank you for using the Simple-RNG")
         else:
             print("Invalid Option")
 main()
