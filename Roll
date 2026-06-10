@@ -16,12 +16,12 @@ def throw():
 def main():
     print("Type 'throw' to start - 'quit' to stop")
     while True:
-        choice = input("Make your move").strip().lower()
+        choice = input("Make your move: ").strip().lower()
         if choice == "throw":
             print(throw())
         elif choice == "quit":
+            print("Thank you for using the Simple-RNG")
             break
-                print("Thank you for using the Simple-RNG")
         else:
             print("Invalid Option")
 main()
