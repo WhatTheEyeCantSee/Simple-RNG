@@ -1,3 +1,12 @@
+"""
+  / _ \
+\_\(_)/_/
+ _//o\\_ 
+  /   \
+Simple RNG by - The Veiled Eye
+"""
+
+
 # This example shows a dice with the possible options being the numbers from 1 to 6
 
 import random
